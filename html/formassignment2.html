@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .required::before{
+            content: "*";
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="/assignmentform.css">
+</head>
+<body>
+    <h3 align="center">Request for White Paper</h3>
+    <p>
+        Please fill out the form below.If you have any questions,please e-mail <br> <span style="color: blue;">
+            white paper@ektron.com
+        </span> <br>
+        <p> <b> <span style="color: red;">*</span>-requierd fields</p></b>
+        <hr  id=h1 style="color: blue;">
+       
+    </p>
+    <form>
+        <label for="fname" class="required"> First Name:</label>
+        <input type="text" id="fname" placeholder="enter first name"><br><br>
+        <label for="lname" class="required"> Last Name:</label>
+        <input type="text" id="lname" placeholder="enter last name" ><br><br>
+        <label for="company name"> Company Name:</label>
+        <input type="text" id="company name" placeholder=" enter company name"> <br><br>
+        <label for="Company/Personal Website"> Company /Personal Website:</label>
+        <input type="text" id="Company/Personal Website"><br><br>
+        <label for="email" class="required"> Email:</label>
+        <input type="email" id="email" placeholder="enter email" required ><br><br>
+        <label for="phone"> Phone:</label>
+        <input type="number" id="phone" placeholder="enter phone number">
+        <label for="exit"> Exit:</label>
+        <input type="text" id="exit"><br><br>
+        <label for="exit">State/Provience:</label>
+        <select name="" id="">
+            <option value=""> Select for USA or Canada Only</option>
+        </select><br><br>
+<label for="Country" class="required">Country:</label>
+<select name="country" id="country" required>
+    <option value="">United State</option>
+</select><br><br>
+<label for="comments">Comments:</label><br>
+<textarea  name="" id="comments" cols="70" rows="5"></textarea><br><br><br>
+        
+<button align="center">Request White Paper</button>
+
+
+
+        
+    </form>
+
+    
+</body>
+</html>
