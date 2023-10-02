@@ -1,0 +1,49 @@
+#td1{
+    width: 550px;
+    height: 65px;
+    background-color:   #f5f5f0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px; 
+    color:  #10100a;
+}
+.required::after{
+    content: "*"; 
+}
+
+.clr{
+   color:  #8a8a5c;
+}
+table{
+    color: #42c8f5;
+    padding: 30px;     
+}
+
+#Email{
+    width:95%
+}
+#td2{
+    width: 550px;
+    height: 60px;
+    background-color:   #f5f5f0;
+}
+button{
+    background-color:#42c8f5 ;
+    color: white;
+    width: 70px;
+    height: 29px;
+    border-color: #42c8f5;
+    border-radius: 4px;   
+    float:right ; 
+    margin-right:20px;
+    margin-top:10px ;
+    margin-bottom: 0;
+}
+
+.td3{
+    width: 90%;
+}
+#income{
+width: 80%;
+}
+
+
