@@ -1,0 +1,71 @@
+#main{
+    display: grid;
+    grid-template-columns: 50px 55px 75px 75px 75px 75px 75px 75px 75px 75px 50px 50px ;
+    grid-template-rows:25px 25px 25px 50px 25px 25px 25px 50px 50px 50px 35px ;
+    height: 70vh;
+    width: fit-content;
+    padding: 10px;
+}
+div{
+    border:3px solid white ;
+    border-radius: 12px;
+    padding: 10px; 
+}
+#box1{
+    background-color:#660066;
+    grid-area:1/1/7/5 ;
+}
+#box2{
+    background-color:green ;
+    grid-area: 1/5/9/7;
+}
+#box3{
+    background-color:#4d79ff;
+    grid-area:1/7/3/9 ;
+}
+#box4{
+    background-color:green ;
+    grid-area:1/9/3/13 ;
+}
+#box5{
+    background-color:#cc0000 ;
+    grid-area:3/7/10/9 ;
+}
+#box6{
+    background-color:#4d79ff;
+    grid-area: 3/9/5/10;
+}
+#box7{
+    background-color:#cc0000 ;
+    grid-area:3/10/5/13 ;}
+    
+#box8{
+    background-color:#660066 ;
+    grid-area:5/9/11/13 ;
+}
+
+#box9{
+    background-color:green ;
+    grid-area:7/1/10/3 ;
+}
+#box10{
+    background-color:#4d79ff ;
+    grid-area: 7/3/8/5;
+}
+#box11{
+    background-color:#cc0000 ;
+    grid-area: 8/3/10/5;
+}
+#box12{
+    background-color:#660066 ;
+    grid-area: 9/5/12/9;
+}
+#box13{
+    background-color:green ;
+    grid-area:10/1/12/5 ;
+}
+#box14{
+    background-color: #4d79ff;
+    grid-area:11/9/12/13 ;
+}
+
