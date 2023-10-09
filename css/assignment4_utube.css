@@ -1,0 +1,218 @@
+#main{
+    height: 1100px;
+    width: 100%;
+    display: grid;
+    flex-direction: column;
+    padding: 0;  
+}
+.header{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 62px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.boxa{
+    width: 33%;
+    height: 70px;
+
+}
+.boxb{
+    width: 52%;
+    height: 70px;
+}
+.boxc{
+    width: 15%;
+    height: 70px;
+}
+.body{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    height: 900px;
+}
+.boxx1{
+width: 8%;
+height: 100%;
+/* background-color: blue; */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.boxx2{
+    width: 8%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+.boxl1,.boxl2,.boxl3,.boxl4,.boxl5,.boxl6,.boxl7,.boxl8{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.boxy{
+width: 84%;
+height:100% ;
+/* background-color: brown; */
+display: flex;
+flex-direction: column;
+display: grid;
+}
+.boxt{
+    width: 100%;
+    height: 55px;
+    /* background-color: yellow; */
+}
+.box1_1{
+    width: 100%;
+    height: 245px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+.box2_2{
+    width: 100%;
+    height: 155px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.box3_3{
+    width: 100%;
+    height: 245px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+}
+.box4_4{
+    width: 100%;
+    height: 155px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+}
+/* .box1,.box2,.box3,.box4,.box9,.box10,.box11,.box12 {
+width: 100% ;
+height: 255px;
+}
+.box5,.box6,.box7,.box8,.box13,.box14,.box15,.box16{
+    width: 25% ;
+    height: 160px;   
+} */
+.box1{
+    background-image: url("image1.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box2{
+    background-image: url("image2.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box3{
+    background-image: url("image3.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box4{
+    background-image: url("image4.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box9{
+    background-image: url("image5.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box10{
+    background-image: url("image6.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box11{
+    background-image: url("image7.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box12{
+    background-image: url("image8.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 245px;
+}
+.box5{
+    background-image: url("image1a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box6{
+    background-image: url("image2a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box7{
+    background-image: url("image3a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box8{
+    background-image: url("image4a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box13{
+    background-image: url("image5a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box14{
+    background-image: url("image6a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box15{
+    background-image: url("image7a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height: 155px;
+}
+.box16{
+    background-image: url("image8a.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 25% ;
+height:155px;
+}
